@@ -68,7 +68,7 @@
             <li><a href="/category?name=thethao">THỂ THAO</a></li>
             <li><a href="/category?name=suckhoe">SỨC KHỎE</a></li>
             <li><a href="/category?name=congnghe">CÔNG NGHỆ</a></li>
-            <li><a href="/baoDT/views/favorite.jsp">YÊU THÍCH</a></li>
+            <li><a href="/baoDT/views/favorite.jsp" target="mainFrame">YÊU THÍCH</a></li>
             <li><a href="/contact">LIÊN HỆ</a></li>
         </ul>
     </div>
