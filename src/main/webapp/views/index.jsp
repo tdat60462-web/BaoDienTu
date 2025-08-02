@@ -71,6 +71,6 @@
             <li><a href="/contact">LIÊN HỆ</a></li>
         </ul>
     </div>
-    <iframe src="/baoDT/views/category.jsp" name="mainFrame" style="width:100%;height:600px;border:none;"></iframe>
+    <iframe src="/baoDT/views/category.jsp" name="mainFrame" style="width:100%;height:calc(100vh - 220px);border:none;display:block;"></iframe>
 </body>
 </html>
