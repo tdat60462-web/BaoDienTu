@@ -2,28 +2,26 @@ package com.baodientu.model.bean;
 
 public class NewsBean {
     private int id;
-    private String title;
-    private String summary;
-    private String content;
-    private String image;
+    private String tieuDe;
+    private String noiDung;
+    private String anh;
+    private String ngayDang;
+    private int idTheLoai;
+    private int tacGiaId;
 
-    // ✅ Constructor rỗng (bắt buộc nếu dùng new NewsBean())
-    public NewsBean() {
-    }
-
-    // Getters & Setters
+    // Getters and setters
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
-
-    public String getTitle() { return title; }
-    public void setTitle(String title) { this.title = title; }
-
-    public String getSummary() { return summary; }
-    public void setSummary(String summary) { this.summary = summary; }
-
-    public String getContent() { return content; }
-    public void setContent(String content) { this.content = content; }
-
-    public String getImage() { return image; }
-    public void setImage(String image) { this.image = image; }
+    public String getTieuDe() { return tieuDe; }
+    public void setTieuDe(String tieuDe) { this.tieuDe = tieuDe; }
+    public String getNoiDung() { return noiDung; }
+    public void setNoiDung(String noiDung) { this.noiDung = noiDung; }
+    public String getAnh() { return anh; }
+    public void setAnh(String anh) { this.anh = anh; }
+    public String getNgayDang() { return ngayDang; }
+    public void setNgayDang(String ngayDang) { this.ngayDang = ngayDang; }
+    public int getIdTheLoai() { return idTheLoai; }
+    public void setIdTheLoai(int idTheLoai) { this.idTheLoai = idTheLoai; }
+    public int getTacGiaId() { return tacGiaId; }
+    public void setTacGiaId(int tacGiaId) { this.tacGiaId = tacGiaId; }
 }
