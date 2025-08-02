@@ -47,7 +47,7 @@
             </div>
             <div class="user-actions">
                 <a href="/baoDT/views/login.jsp" class="login" target="mainFrame">Đăng nhập</a>
-                <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/54/54481.png" alt="search" width="22" style="vertical-align:middle;opacity:0.7;"></a>
+                <a href="/baoDT/views/search.jsp" target="mainFrame"><img src="https://cdn-icons-png.flaticon.com/512/54/54481.png"  alt="search" width="22" style="vertical-align:middle;opacity:0.7;"></a>
             </div>
         </div>
     </div>
@@ -60,7 +60,6 @@
     <div class="menu">
         <ul>
             <li><a href="/">TIN MỚI NHẤT</a></li>
-            <li><a href="/category?name=video">VIDEO</a></li>
             <li><a href="/category?name=kinhdoanh">KINH DOANH</a></li>
             <li><a href="/category?name=xahoi">XÃ HỘI</a></li>
             <li><a href="/category?name=thegioi">THẾ GIỚI</a></li>
@@ -68,7 +67,7 @@
             <li><a href="/category?name=thethao">THỂ THAO</a></li>
             <li><a href="/category?name=suckhoe">SỨC KHỎE</a></li>
             <li><a href="/category?name=congnghe">CÔNG NGHỆ</a></li>
-            <li><a href="/baoDT/views/favorite.jsp" target="mainFrame">YÊU THÍCH     </a></li>
+            <li><a href="/baoDT/views/favorite.jsp" target="mainFrame">YÊU THÍCH</a></li>
             <li><a href="/contact">LIÊN HỆ</a></li>
         </ul>
     </div>
